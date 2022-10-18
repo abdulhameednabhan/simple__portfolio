@@ -11,14 +11,14 @@ body{
     margin:auto;
     
 }
-.specialized,.client,.achive{
+.specialized,.client,.achive,.videos{
     width:100%;
-    height:500px;
+    /* height:500px;  */
     margin-top: 50px;
-
+    
 }
 
-.titles,.tclient,.tach
+.titles,.tclient,.tach,.tvideo
 {
     
     font-size: 45px;
@@ -26,17 +26,16 @@ body{
     line-height: 54px;
     letter-spacing: 0em;
     text-align: center;
-    
+    margin-bottom:20px;
 }
 
-.content,.allclient,.flextitle{
+.content,.allclient,.flextitle ,.allvideos,.flexvid{
     margin-top: 30px;
     display: flex;
     justify-content :space-around;
 }
 .flextitle{
     justify-content :space-between;
-    
 
 }
 
@@ -130,3 +129,21 @@ border-radius: 0px 8px 8px 8px;
     color: #f9cc11;
     width: 100%;
 }
+.videos{
+    background: linear-gradient(180deg, rgb(10, 10, 10) 0%, rgba(196, 65, 65, 0) 71.84%), url(../images/bgimage.png) ;
+     
+
+    /* background-image: url(../images/bgimage.png),linear-gradient(); */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.274), rgba(241, 49, 49, 0.856),0.5); */
+}
+.menu1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around
+}
+
+.right .vitem{
+    padding:3px;
+}
+
