@@ -6,6 +6,7 @@
 a{
     cursor: pointer;
 }
+
 div{
     position: absolute;
     display: block;
@@ -37,7 +38,7 @@ img {
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 0%;
+    top: 123px;
     bottom: 0%;
     border-bottom: 0.005px solid #F5F5F7;
     /* backdrop-filter: blur(17.5px); */
